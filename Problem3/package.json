@@ -1,0 +1,35 @@
+{
+  "name": "twitch_search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
+  },
+  "author": "Justin Bui",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-styled-components": "^1.8.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "styled-components": "^4.0.3",
+    "webpack": "^2.2.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.15.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "react": "^16.6.0",
+    "react-debounce-input": "^3.2.0",
+    "react-dom": "^16.6.0"
+  }
+}
