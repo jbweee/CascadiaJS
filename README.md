@@ -12,3 +12,5 @@ AWS Coding Challenge for CascadiaJS
   - npm run server-dev
   - npm run react-dev
   - on browser: go to localhost:9001
+
+![alt text](Problem3/TwitchGameSearch.png)
