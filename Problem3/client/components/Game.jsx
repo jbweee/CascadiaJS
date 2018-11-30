@@ -1,3 +1,4 @@
+//Individual Games in the GameList
 import React from 'react';
 
 const Game = (props) => {

@@ -1,3 +1,4 @@
+//List of Games after searching
 import React from 'react';
 import Game from './Game.jsx';
 

@@ -22,10 +22,14 @@ class App extends Component {
     this.clickHandler = this.clickHandler.bind(this);
   }
 
+  // Currently initially fetching with the word "World"
   componentDidMount() {
     this.fetchGames('World'); 
   }
 
+  // Currently just searches if the game starts with the queried string
+  //TODO:
+    //incorporate wildcard search
   fetchGames(query) {
     axios
       .get(`https://api.twitch.tv/kraken/search/games?query=${query}`)
@@ -42,14 +46,13 @@ class App extends Component {
       })
   }
 
+  //Upon clicking, set the state for the displayed game
   clickHandler(displayGame) {
-    // console.log(displayGame.box)
     this.setState({
       displayName: displayGame.name,
       displayImage: displayGame.box.large,
       displayViews: displayGame.popularity
     })
-    // console.log(this.state.displayGame)
   }
   
   render() {
